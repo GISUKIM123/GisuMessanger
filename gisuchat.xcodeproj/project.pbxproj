@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F63802C31DF7B28400F9389E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63802C21DF7B28400F9389E /* AppDelegate.swift */; };
+		F63802C51DF7B28400F9389E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63802C41DF7B28400F9389E /* ViewController.swift */; };
+		F63802C81DF7B28400F9389E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63802C61DF7B28400F9389E /* Main.storyboard */; };
+		F63802CB1DF7B28400F9389E /* gisuchat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F63802C91DF7B28400F9389E /* gisuchat.xcdatamodeld */; };
+		F63802CD1DF7B28400F9389E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F63802CC1DF7B28400F9389E /* Assets.xcassets */; };
+		F63802D01DF7B28400F9389E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63802CE1DF7B28400F9389E /* LaunchScreen.storyboard */; };
+		F63802DB1DF7B28400F9389E /* gisuchatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63802DA1DF7B28400F9389E /* gisuchatTests.swift */; };
+		F63802E61DF7B28400F9389E /* gisuchatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63802E51DF7B28400F9389E /* gisuchatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F63802D71DF7B28400F9389E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F63802B71DF7B28400F9389E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F63802BE1DF7B28400F9389E;
+			remoteInfo = gisuchat;
+		};
+		F63802E21DF7B28400F9389E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F63802B71DF7B28400F9389E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F63802BE1DF7B28400F9389E;
+			remoteInfo = gisuchat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F63802BF1DF7B28400F9389E /* gisuchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gisuchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63802C21DF7B28400F9389E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F63802C41DF7B28400F9389E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F63802C71DF7B28400F9389E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F63802CA1DF7B28400F9389E /* gisuchat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gisuchat.xcdatamodel; sourceTree = "<group>"; };
+		F63802CC1DF7B28400F9389E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F63802CF1DF7B28400F9389E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F63802D11DF7B28400F9389E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F63802D61DF7B28400F9389E /* gisuchatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gisuchatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63802DA1DF7B28400F9389E /* gisuchatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gisuchatTests.swift; sourceTree = "<group>"; };
+		F63802DC1DF7B28400F9389E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F63802E11DF7B28400F9389E /* gisuchatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gisuchatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63802E51DF7B28400F9389E /* gisuchatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gisuchatUITests.swift; sourceTree = "<group>"; };
+		F63802E71DF7B28400F9389E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F63802BC1DF7B28400F9389E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63802D31DF7B28400F9389E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63802DE1DF7B28400F9389E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F63802B61DF7B28400F9389E = {
+			isa = PBXGroup;
+			children = (
+				F63802C11DF7B28400F9389E /* gisuchat */,
+				F63802D91DF7B28400F9389E /* gisuchatTests */,
+				F63802E41DF7B28400F9389E /* gisuchatUITests */,
+				F63802C01DF7B28400F9389E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F63802C01DF7B28400F9389E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F63802BF1DF7B28400F9389E /* gisuchat.app */,
+				F63802D61DF7B28400F9389E /* gisuchatTests.xctest */,
+				F63802E11DF7B28400F9389E /* gisuchatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F63802C11DF7B28400F9389E /* gisuchat */ = {
+			isa = PBXGroup;
+			children = (
+				F63802C21DF7B28400F9389E /* AppDelegate.swift */,
+				F63802C41DF7B28400F9389E /* ViewController.swift */,
+				F63802C61DF7B28400F9389E /* Main.storyboard */,
+				F63802CC1DF7B28400F9389E /* Assets.xcassets */,
+				F63802CE1DF7B28400F9389E /* LaunchScreen.storyboard */,
+				F63802D11DF7B28400F9389E /* Info.plist */,
+				F63802C91DF7B28400F9389E /* gisuchat.xcdatamodeld */,
+			);
+			path = gisuchat;
+			sourceTree = "<group>";
+		};
+		F63802D91DF7B28400F9389E /* gisuchatTests */ = {
+			isa = PBXGroup;
+			children = (
+				F63802DA1DF7B28400F9389E /* gisuchatTests.swift */,
+				F63802DC1DF7B28400F9389E /* Info.plist */,
+			);
+			path = gisuchatTests;
+			sourceTree = "<group>";
+		};
+		F63802E41DF7B28400F9389E /* gisuchatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F63802E51DF7B28400F9389E /* gisuchatUITests.swift */,
+				F63802E71DF7B28400F9389E /* Info.plist */,
+			);
+			path = gisuchatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F63802BE1DF7B28400F9389E /* gisuchat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F63802EA1DF7B28400F9389E /* Build configuration list for PBXNativeTarget "gisuchat" */;
+			buildPhases = (
+				F63802BB1DF7B28400F9389E /* Sources */,
+				F63802BC1DF7B28400F9389E /* Frameworks */,
+				F63802BD1DF7B28400F9389E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gisuchat;
+			productName = gisuchat;
+			productReference = F63802BF1DF7B28400F9389E /* gisuchat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F63802D51DF7B28400F9389E /* gisuchatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F63802ED1DF7B28400F9389E /* Build configuration list for PBXNativeTarget "gisuchatTests" */;
+			buildPhases = (
+				F63802D21DF7B28400F9389E /* Sources */,
+				F63802D31DF7B28400F9389E /* Frameworks */,
+				F63802D41DF7B28400F9389E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F63802D81DF7B28400F9389E /* PBXTargetDependency */,
+			);
+			name = gisuchatTests;
+			productName = gisuchatTests;
+			productReference = F63802D61DF7B28400F9389E /* gisuchatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F63802E01DF7B28400F9389E /* gisuchatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F63802F01DF7B28400F9389E /* Build configuration list for PBXNativeTarget "gisuchatUITests" */;
+			buildPhases = (
+				F63802DD1DF7B28400F9389E /* Sources */,
+				F63802DE1DF7B28400F9389E /* Frameworks */,
+				F63802DF1DF7B28400F9389E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F63802E31DF7B28400F9389E /* PBXTargetDependency */,
+			);
+			name = gisuchatUITests;
+			productName = gisuchatUITests;
+			productReference = F63802E11DF7B28400F9389E /* gisuchatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F63802B71DF7B28400F9389E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "GISU KIM";
+				TargetAttributes = {
+					F63802BE1DF7B28400F9389E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					F63802D51DF7B28400F9389E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F63802BE1DF7B28400F9389E;
+					};
+					F63802E01DF7B28400F9389E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F63802BE1DF7B28400F9389E;
+					};
+				};
+			};
+			buildConfigurationList = F63802BA1DF7B28400F9389E /* Build configuration list for PBXProject "gisuchat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F63802B61DF7B28400F9389E;
+			productRefGroup = F63802C01DF7B28400F9389E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F63802BE1DF7B28400F9389E /* gisuchat */,
+				F63802D51DF7B28400F9389E /* gisuchatTests */,
+				F63802E01DF7B28400F9389E /* gisuchatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F63802BD1DF7B28400F9389E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63802D01DF7B28400F9389E /* LaunchScreen.storyboard in Resources */,
+				F63802CD1DF7B28400F9389E /* Assets.xcassets in Resources */,
+				F63802C81DF7B28400F9389E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63802D41DF7B28400F9389E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63802DF1DF7B28400F9389E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F63802BB1DF7B28400F9389E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63802C51DF7B28400F9389E /* ViewController.swift in Sources */,
+				F63802C31DF7B28400F9389E /* AppDelegate.swift in Sources */,
+				F63802CB1DF7B28400F9389E /* gisuchat.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63802D21DF7B28400F9389E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63802DB1DF7B28400F9389E /* gisuchatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63802DD1DF7B28400F9389E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63802E61DF7B28400F9389E /* gisuchatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F63802D81DF7B28400F9389E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F63802BE1DF7B28400F9389E /* gisuchat */;
+			targetProxy = F63802D71DF7B28400F9389E /* PBXContainerItemProxy */;
+		};
+		F63802E31DF7B28400F9389E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F63802BE1DF7B28400F9389E /* gisuchat */;
+			targetProxy = F63802E21DF7B28400F9389E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F63802C61DF7B28400F9389E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F63802C71DF7B28400F9389E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F63802CE1DF7B28400F9389E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F63802CF1DF7B28400F9389E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F63802E81DF7B28400F9389E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F63802E91DF7B28400F9389E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F63802EB1DF7B28400F9389E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gisuchat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GISU-KIM.gisuchat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F63802EC1DF7B28400F9389E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gisuchat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GISU-KIM.gisuchat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F63802EE1DF7B28400F9389E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gisuchatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GISU-KIM.gisuchatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gisuchat.app/gisuchat";
+			};
+			name = Debug;
+		};
+		F63802EF1DF7B28400F9389E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gisuchatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GISU-KIM.gisuchatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gisuchat.app/gisuchat";
+			};
+			name = Release;
+		};
+		F63802F11DF7B28400F9389E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = gisuchatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GISU-KIM.gisuchatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = gisuchat;
+			};
+			name = Debug;
+		};
+		F63802F21DF7B28400F9389E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = gisuchatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GISU-KIM.gisuchatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = gisuchat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F63802BA1DF7B28400F9389E /* Build configuration list for PBXProject "gisuchat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63802E81DF7B28400F9389E /* Debug */,
+				F63802E91DF7B28400F9389E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F63802EA1DF7B28400F9389E /* Build configuration list for PBXNativeTarget "gisuchat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63802EB1DF7B28400F9389E /* Debug */,
+				F63802EC1DF7B28400F9389E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F63802ED1DF7B28400F9389E /* Build configuration list for PBXNativeTarget "gisuchatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63802EE1DF7B28400F9389E /* Debug */,
+				F63802EF1DF7B28400F9389E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F63802F01DF7B28400F9389E /* Build configuration list for PBXNativeTarget "gisuchatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63802F11DF7B28400F9389E /* Debug */,
+				F63802F21DF7B28400F9389E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F63802C91DF7B28400F9389E /* gisuchat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F63802CA1DF7B28400F9389E /* gisuchat.xcdatamodel */,
+			);
+			currentVersion = F63802CA1DF7B28400F9389E /* gisuchat.xcdatamodel */;
+			path = gisuchat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F63802B71DF7B28400F9389E /* Project object */;
+}
