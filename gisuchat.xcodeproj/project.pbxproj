@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8045C1C9F45A9C82996AA992 /* Pods_gisuchatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48AC95492A89C26F266F2845 /* Pods_gisuchatUITests.framework */; };
+		BD73C6AB6734251C1D260E9A /* Pods_gisuchat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5900E408B10487A545F1ECF9 /* Pods_gisuchat.framework */; };
+		D479883E2B1FEA17D3FC3288 /* Pods_gisuchatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00536A8639C8F7C8211B416F /* Pods_gisuchatTests.framework */; };
+		F6351A6D1E00E8CD0008E6EE /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6351A6C1E00E8CD0008E6EE /* Message.swift */; };
 		F63802C31DF7B28400F9389E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63802C21DF7B28400F9389E /* AppDelegate.swift */; };
-		F63802C51DF7B28400F9389E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63802C41DF7B28400F9389E /* ViewController.swift */; };
+		F63802C51DF7B28400F9389E /* MessagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63802C41DF7B28400F9389E /* MessagesController.swift */; };
 		F63802C81DF7B28400F9389E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63802C61DF7B28400F9389E /* Main.storyboard */; };
 		F63802CB1DF7B28400F9389E /* gisuchat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F63802C91DF7B28400F9389E /* gisuchat.xcdatamodeld */; };
-		F63802CD1DF7B28400F9389E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F63802CC1DF7B28400F9389E /* Assets.xcassets */; };
 		F63802D01DF7B28400F9389E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63802CE1DF7B28400F9389E /* LaunchScreen.storyboard */; };
 		F63802DB1DF7B28400F9389E /* gisuchatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63802DA1DF7B28400F9389E /* gisuchatTests.swift */; };
 		F63802E61DF7B28400F9389E /* gisuchatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63802E51DF7B28400F9389E /* gisuchatUITests.swift */; };
+		F63802F51DF7B30400F9389E /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63802F41DF7B30400F9389E /* LoginController.swift */; };
+		F63802F71DF7B37B00F9389E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F63802F61DF7B37B00F9389E /* GoogleService-Info.plist */; };
+		F6390C691E05CDA70037C22F /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6390C681E05CDA70037C22F /* UserCell.swift */; };
+		F6390C6B1E0646C90037C22F /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6390C6A1E0646C90037C22F /* ChatMessageCell.swift */; };
+		F6390C6D1E0B078C0037C22F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6390C6C1E0B078C0037C22F /* Assets.xcassets */; };
+		F6390C721E0D231D0037C22F /* ChatInputContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6390C711E0D231D0037C22F /* ChatInputContainerView.swift */; };
+		F6500AB81DFA488600E444B2 /* NewMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6500AB71DFA488600E444B2 /* NewMessageController.swift */; };
+		F6500ABB1DFA4FBE00E444B2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6500ABA1DFA4FBE00E444B2 /* User.swift */; };
+		F6500ABD1DFA633A00E444B2 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6500ABC1DFA633A00E444B2 /* AdSupport.framework */; };
+		F6500ABF1DFA963300E444B2 /* LoginController+handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6500ABE1DFA963300E444B2 /* LoginController+handler.swift */; };
+		F6500AC21DFBCB2300E444B2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6500AC11DFBCB2300E444B2 /* Extensions.swift */; };
+		F670217A1DFF57570058670A /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67021791DFF57570058670A /* ChatLogController.swift */; };
+		F6AA5B451E1EF39F00B645A0 /* PersonalInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AA5B441E1EF39F00B645A0 /* PersonalInfoView.swift */; };
+		F6AA5B491E1EFF1900B645A0 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AA5B481E1EFF1900B645A0 /* Animation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +52,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00536A8639C8F7C8211B416F /* Pods_gisuchatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gisuchatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A67AAF382E41C879ED7FCFB /* Pods-gisuchatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gisuchatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-gisuchatUITests/Pods-gisuchatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3D8842FC2A698B6D422ABB62 /* Pods-gisuchat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gisuchat.release.xcconfig"; path = "Pods/Target Support Files/Pods-gisuchat/Pods-gisuchat.release.xcconfig"; sourceTree = "<group>"; };
+		48AC95492A89C26F266F2845 /* Pods_gisuchatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gisuchatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5900E408B10487A545F1ECF9 /* Pods_gisuchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gisuchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0CCC8E27AC2A45773E5D3D /* Pods-gisuchatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gisuchatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gisuchatUITests/Pods-gisuchatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ACD02AA1AF21CFD81A4D2222 /* Pods-gisuchatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gisuchatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-gisuchatTests/Pods-gisuchatTests.release.xcconfig"; sourceTree = "<group>"; };
+		C0E045A5F656CF41FEC1BD80 /* Pods-gisuchat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gisuchat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gisuchat/Pods-gisuchat.debug.xcconfig"; sourceTree = "<group>"; };
+		D068A80F17B3D53B680A866C /* Pods-gisuchatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gisuchatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gisuchatTests/Pods-gisuchatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6351A6C1E00E8CD0008E6EE /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		F63802BF1DF7B28400F9389E /* gisuchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gisuchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F63802C21DF7B28400F9389E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F63802C41DF7B28400F9389E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F63802C41DF7B28400F9389E /* MessagesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesController.swift; sourceTree = "<group>"; };
 		F63802C71DF7B28400F9389E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F63802CA1DF7B28400F9389E /* gisuchat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gisuchat.xcdatamodel; sourceTree = "<group>"; };
-		F63802CC1DF7B28400F9389E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F63802CF1DF7B28400F9389E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F63802D11DF7B28400F9389E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F63802D61DF7B28400F9389E /* gisuchatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gisuchatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +75,21 @@
 		F63802E11DF7B28400F9389E /* gisuchatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gisuchatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F63802E51DF7B28400F9389E /* gisuchatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gisuchatUITests.swift; sourceTree = "<group>"; };
 		F63802E71DF7B28400F9389E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F63802F41DF7B30400F9389E /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		F63802F61DF7B37B00F9389E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F6390C681E05CDA70037C22F /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		F6390C6A1E0646C90037C22F /* ChatMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
+		F6390C6C1E0B078C0037C22F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		F6390C711E0D231D0037C22F /* ChatInputContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatInputContainerView.swift; sourceTree = "<group>"; };
+		F6500AB71DFA488600E444B2 /* NewMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMessageController.swift; sourceTree = "<group>"; };
+		F6500ABA1DFA4FBE00E444B2 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F6500ABC1DFA633A00E444B2 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		F6500ABE1DFA963300E444B2 /* LoginController+handler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LoginController+handler.swift"; sourceTree = "<group>"; };
+		F6500AC11DFBCB2300E444B2 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F67021791DFF57570058670A /* ChatLogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
+		F69383461E0F0FAB003D504B /* gisuchat.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = gisuchat.entitlements; sourceTree = SOURCE_ROOT; };
+		F6AA5B441E1EF39F00B645A0 /* PersonalInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInfoView.swift; sourceTree = "<group>"; };
+		F6AA5B481E1EFF1900B645A0 /* Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +97,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6500ABD1DFA633A00E444B2 /* AdSupport.framework in Frameworks */,
+				BD73C6AB6734251C1D260E9A /* Pods_gisuchat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D479883E2B1FEA17D3FC3288 /* Pods_gisuchatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +114,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8045C1C9F45A9C82996AA992 /* Pods_gisuchatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D2418904A09BC3C511C0E1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6500ABC1DFA633A00E444B2 /* AdSupport.framework */,
+				5900E408B10487A545F1ECF9 /* Pods_gisuchat.framework */,
+				00536A8639C8F7C8211B416F /* Pods_gisuchatTests.framework */,
+				48AC95492A89C26F266F2845 /* Pods_gisuchatUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79C91EA453A814BC5192B33A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0E045A5F656CF41FEC1BD80 /* Pods-gisuchat.debug.xcconfig */,
+				3D8842FC2A698B6D422ABB62 /* Pods-gisuchat.release.xcconfig */,
+				D068A80F17B3D53B680A866C /* Pods-gisuchatTests.debug.xcconfig */,
+				ACD02AA1AF21CFD81A4D2222 /* Pods-gisuchatTests.release.xcconfig */,
+				AA0CCC8E27AC2A45773E5D3D /* Pods-gisuchatUITests.debug.xcconfig */,
+				3A67AAF382E41C879ED7FCFB /* Pods-gisuchatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F63802B61DF7B28400F9389E = {
 			isa = PBXGroup;
 			children = (
+				F6500AC01DFBCB0700E444B2 /* Helpers */,
 				F63802C11DF7B28400F9389E /* gisuchat */,
 				F63802D91DF7B28400F9389E /* gisuchatTests */,
 				F63802E41DF7B28400F9389E /* gisuchatUITests */,
 				F63802C01DF7B28400F9389E /* Products */,
+				79C91EA453A814BC5192B33A /* Pods */,
+				6D2418904A09BC3C511C0E1D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +171,13 @@
 		F63802C11DF7B28400F9389E /* gisuchat */ = {
 			isa = PBXGroup;
 			children = (
+				F6390C671E05CD990037C22F /* View */,
+				F6500AB91DFA4F9900E444B2 /* Model */,
+				F63802F31DF7B28B00F9389E /* Controller */,
 				F63802C21DF7B28400F9389E /* AppDelegate.swift */,
-				F63802C41DF7B28400F9389E /* ViewController.swift */,
 				F63802C61DF7B28400F9389E /* Main.storyboard */,
-				F63802CC1DF7B28400F9389E /* Assets.xcassets */,
+				F63802F61DF7B37B00F9389E /* GoogleService-Info.plist */,
+				F6390C6C1E0B078C0037C22F /* Assets.xcassets */,
 				F63802CE1DF7B28400F9389E /* LaunchScreen.storyboard */,
 				F63802D11DF7B28400F9389E /* Info.plist */,
 				F63802C91DF7B28400F9389E /* gisuchat.xcdatamodeld */,
@@ -128,6 +203,48 @@
 			path = gisuchatUITests;
 			sourceTree = "<group>";
 		};
+		F63802F31DF7B28B00F9389E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F63802C41DF7B28400F9389E /* MessagesController.swift */,
+				F63802F41DF7B30400F9389E /* LoginController.swift */,
+				F6500ABE1DFA963300E444B2 /* LoginController+handler.swift */,
+				F6500AB71DFA488600E444B2 /* NewMessageController.swift */,
+				F67021791DFF57570058670A /* ChatLogController.swift */,
+				F6AA5B441E1EF39F00B645A0 /* PersonalInfoView.swift */,
+				F6AA5B481E1EFF1900B645A0 /* Animation.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F6390C671E05CD990037C22F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F6390C681E05CDA70037C22F /* UserCell.swift */,
+				F6390C6A1E0646C90037C22F /* ChatMessageCell.swift */,
+				F6390C711E0D231D0037C22F /* ChatInputContainerView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F6500AB91DFA4F9900E444B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F6351A6C1E00E8CD0008E6EE /* Message.swift */,
+				F6500ABA1DFA4FBE00E444B2 /* User.swift */,
+				F69383461E0F0FAB003D504B /* gisuchat.entitlements */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F6500AC01DFBCB0700E444B2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F6500AC11DFBCB2300E444B2 /* Extensions.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +252,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F63802EA1DF7B28400F9389E /* Build configuration list for PBXNativeTarget "gisuchat" */;
 			buildPhases = (
+				9BE11EA023D640853357F1DC /* [CP] Check Pods Manifest.lock */,
 				F63802BB1DF7B28400F9389E /* Sources */,
 				F63802BC1DF7B28400F9389E /* Frameworks */,
 				F63802BD1DF7B28400F9389E /* Resources */,
+				B162E4ACBC071574393A6E12 /* [CP] Embed Pods Frameworks */,
+				96DA494F60DB45FCF29E1848 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +272,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F63802ED1DF7B28400F9389E /* Build configuration list for PBXNativeTarget "gisuchatTests" */;
 			buildPhases = (
+				02B26851D665585177C96E7C /* [CP] Check Pods Manifest.lock */,
 				F63802D21DF7B28400F9389E /* Sources */,
 				F63802D31DF7B28400F9389E /* Frameworks */,
 				F63802D41DF7B28400F9389E /* Resources */,
+				F6AFC9BCA7C8EBAE29422F55 /* [CP] Embed Pods Frameworks */,
+				F84DB8B075C616EF8DDD07F0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +293,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F63802F01DF7B28400F9389E /* Build configuration list for PBXNativeTarget "gisuchatUITests" */;
 			buildPhases = (
+				E75D12C9ACA5D95DD12527A9 /* [CP] Check Pods Manifest.lock */,
 				F63802DD1DF7B28400F9389E /* Sources */,
 				F63802DE1DF7B28400F9389E /* Frameworks */,
 				F63802DF1DF7B28400F9389E /* Resources */,
+				C71EEE0F20F90218CC77CE9C /* [CP] Embed Pods Frameworks */,
+				7468CF65877222294BC7D9AB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,7 +322,13 @@
 				TargetAttributes = {
 					F63802BE1DF7B28400F9389E = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6VQS7XZT2H;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					F63802D51DF7B28400F9389E = {
 						CreatedOnToolsVersion = 8.1;
@@ -236,7 +368,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F63802D01DF7B28400F9389E /* LaunchScreen.storyboard in Resources */,
-				F63802CD1DF7B28400F9389E /* Assets.xcassets in Resources */,
+				F63802F71DF7B37B00F9389E /* GoogleService-Info.plist in Resources */,
+				F6390C6D1E0B078C0037C22F /* Assets.xcassets in Resources */,
 				F63802C81DF7B28400F9389E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,13 +390,163 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02B26851D665585177C96E7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7468CF65877222294BC7D9AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gisuchatUITests/Pods-gisuchatUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96DA494F60DB45FCF29E1848 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gisuchat/Pods-gisuchat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BE11EA023D640853357F1DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B162E4ACBC071574393A6E12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gisuchat/Pods-gisuchat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C71EEE0F20F90218CC77CE9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gisuchatUITests/Pods-gisuchatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E75D12C9ACA5D95DD12527A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6AFC9BCA7C8EBAE29422F55 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gisuchatTests/Pods-gisuchatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F84DB8B075C616EF8DDD07F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gisuchatTests/Pods-gisuchatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F63802BB1DF7B28400F9389E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F63802C51DF7B28400F9389E /* ViewController.swift in Sources */,
+				F670217A1DFF57570058670A /* ChatLogController.swift in Sources */,
+				F6500AB81DFA488600E444B2 /* NewMessageController.swift in Sources */,
+				F63802C51DF7B28400F9389E /* MessagesController.swift in Sources */,
+				F6500ABF1DFA963300E444B2 /* LoginController+handler.swift in Sources */,
+				F6500AC21DFBCB2300E444B2 /* Extensions.swift in Sources */,
+				F6500ABB1DFA4FBE00E444B2 /* User.swift in Sources */,
+				F63802F51DF7B30400F9389E /* LoginController.swift in Sources */,
+				F6351A6D1E00E8CD0008E6EE /* Message.swift in Sources */,
 				F63802C31DF7B28400F9389E /* AppDelegate.swift in Sources */,
+				F6390C691E05CDA70037C22F /* UserCell.swift in Sources */,
+				F6AA5B451E1EF39F00B645A0 /* PersonalInfoView.swift in Sources */,
+				F6390C721E0D231D0037C22F /* ChatInputContainerView.swift in Sources */,
+				F6AA5B491E1EFF1900B645A0 /* Animation.swift in Sources */,
+				F6390C6B1E0646C90037C22F /* ChatMessageCell.swift in Sources */,
 				F63802CB1DF7B28400F9389E /* gisuchat.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +620,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -387,6 +671,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -414,11 +699,15 @@
 		};
 		F63802EB1DF7B28400F9389E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0E045A5F656CF41FEC1BD80 /* Pods-gisuchat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = gisuchat/gisuchat.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6VQS7XZT2H;
 				INFOPLIST_FILE = gisuchat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "GISU-KIM.gisuchat";
+				PRODUCT_BUNDLE_IDENTIFIER = GISUKIMChatChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -426,11 +715,15 @@
 		};
 		F63802EC1DF7B28400F9389E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D8842FC2A698B6D422ABB62 /* Pods-gisuchat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = gisuchat/gisuchat.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6VQS7XZT2H;
 				INFOPLIST_FILE = gisuchat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "GISU-KIM.gisuchat";
+				PRODUCT_BUNDLE_IDENTIFIER = GISUKIMChatChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -438,6 +731,7 @@
 		};
 		F63802EE1DF7B28400F9389E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D068A80F17B3D53B680A866C /* Pods-gisuchatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +746,7 @@
 		};
 		F63802EF1DF7B28400F9389E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACD02AA1AF21CFD81A4D2222 /* Pods-gisuchatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -466,6 +761,7 @@
 		};
 		F63802F11DF7B28400F9389E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA0CCC8E27AC2A45773E5D3D /* Pods-gisuchatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = gisuchatUITests/Info.plist;
@@ -479,6 +775,7 @@
 		};
 		F63802F21DF7B28400F9389E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A67AAF382E41C879ED7FCFB /* Pods-gisuchatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = gisuchatUITests/Info.plist;
@@ -509,6 +806,7 @@
 				F63802EC1DF7B28400F9389E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F63802ED1DF7B28400F9389E /* Build configuration list for PBXNativeTarget "gisuchatTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +815,7 @@
 				F63802EF1DF7B28400F9389E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F63802F01DF7B28400F9389E /* Build configuration list for PBXNativeTarget "gisuchatUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +824,7 @@
 				F63802F21DF7B28400F9389E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
